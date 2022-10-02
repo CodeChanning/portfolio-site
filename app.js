@@ -15,16 +15,16 @@ const CLOUD_POINT_5 = "assets/fall-sem-22/cloud-room-5.JPG";
 const GRAD_CAP = "assets/hs-senior-year/grad-cap.JPG";
 const STEFAN_N_AHMAD_AT_GRADUATION = "assets/hs-senior-year/stefan-and-ahmad-graduation.png";
 const KALEB_SLEEPING_AT_FESTIVAL = "assets/hs-senior-year/kaleb-sleeping-at-festival.JPG";
-const WALKER_POINT_5 = "assets/hs-senior-year/walker-point-five.JPG";
+const WALKER_POINT_5 = "assets/hs-senior-year/walker-point-five.jpg";
 const WESTERN_LUNCH = "assets/hs-senior-year/western-lunch.JPG";
-const WLR_CAT = "assets/hs-senior-year/wlr-cat.JPG";
+const WLR_CAT = "assets/hs-senior-year/wlr-cat.jpg";
 const I_HEART_KENDRICK_WITH_HAYDEN = "assets/hs-senior-year/i-heart-kendrick-with-hayden.jpg";
 const ARIANNA_BURGER_WITH_NO_MEAT = "assets/hs-senior-year/arianna-no-meat-burger.JPG";
 
 /* JUNIOR YR PICS */
-const ROBOTICS_WAVES = "assets/hs-junior-year/robotics-waves.JPG";
+const ROBOTICS_WAVES = "assets/hs-junior-year/robotics-waves.jpg";
 const GEN_3_BOT_2021 = "assets/hs-junior-year/gen-3-ultimate-goal-bot.jpg";
-const KEYCHRON_KEYBOARD = "assets/hs-junior-year/keychron.jpg";
+const KEYCHRON_KEYBOARD = "assets/hs-junior-year/keychron.JPG";
 
 /** COLLAGE ARRAY INTIALIZATIONS **/
 
