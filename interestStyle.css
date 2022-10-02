@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Inconsolata&family=Poppins&family=Raleway:wght@700&display=swap');
+
+/**
+IMPORTED FONTS:
+    POPPINS
+    INCONSOLATA
+    BUNGEE SPICE
+    RALEWAY
+**/
+
+:root{
+    --dark: #03045e;
+    --light: #90e0ef;
+    --lightNeutral: #00b4d8;
+    --darkNeutral: #0077b6;
+    --startWidth: 40%;
+    --endWidth: 50%;
+    --startHeight: 65%;
+    --endHeight: 90%;
+    --startOpacity: 1;
+    --endOpacity: 0.5;
+    --rowStartWidth: 90%;
+    --rowStartHeight: 30vw;
+    --rowEndWidth: 95%;
+    --rowEndHeight: 50vw;
+  }
+  
+  /** BODY **/
+  body{
+    display:flex;
+    flex-direction: column;
+    background: linear-gradient(70deg, var(--dark), var(--lightNeutral));
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+  }
+
+  .body-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    vertical-align: middle;
+
+    height: var(--rowStartHeight);
+    width: var(--rowStartWidth);
+
+  }
+
+  .interestSq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+
+    color: white;
+    width: var(--startWidth);
+    height: var(--startHeight);
+    opacity: var(--startOpacity);
+    background-color: black;
+
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .interestSq:hover{
+    animation: enlarge 1s 1;
+    cursor: pointer;
+    width: var(--endWidth);
+    height: var(--endHeight);
+    opacity: var(--endOpacity);
+
+    background-color: red;
+  }
+
+  .interestSq:not(:hover){
+    animation: returnToOrgSize 1s 1;
+  }
+
+  h2{
+    background-color: var(--light);
+    opacity: 0.8;
+    color: black;
+    padding: 5px;
+  }
+
+  .interestSq > p{
+    color: white;
+    height: 0%;
+    font-size: 0%;
+  }
+
+  #cars-interest{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvignette2.wikia.nocookie.net%2Fjoke-battles%2Fimages%2F9%2F98%2FLightning-mcqueen.jpg%2Frevision%2Flatest%3Fcb%3D20170609142225&f=1&nofb=1&ipt=a4a52ab93950c2492de9de1d5ef8ba57cb84b1dfce8540e483fe0e62c9f43afa&ipo=images");
+
+  }
+
+  #breaking-bad-interest{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.7V3WXJtLN_lX2sAu_Q5haAHaEK%26pid%3DApi&f=1&ipt=b01bea98426c7a6acc2687971a46fe89015b397564db5d4a3b4b226e8aca2ad8&ipo=images");
+
+  }
+
+  #phineas-interest{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.explicit.bing.net%2Fth%3Fid%3DOIP.emDNkMJLpB9b39RabZ8a6wHaEK%26pid%3DApi&f=1&ipt=733d9df723483c2cc69217b204900e260d39ce5d237178935702f75d6d8ca233&ipo=images");
+
+  }
+
+  #naruto-interest{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpm1.narvii.com%2F5878%2F7c4aa2f3fdd75a435116a1a8e952161072b71936_hq.jpg&f=1&nofb=1&ipt=2e6386ec74c4756c4e652e004973ca66ea5db6e7de84f2b7f09c40737a72d69e&ipo=images");
+  }
+
+  #miami-heat-interest{
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.gannett-cdn.com%2F-mm-%2Fdfff082d1e4931b30569ae37195b6862a6a8ef8a%2Fc%3D0-361-2915-2008%2Flocal%2F-%2Fmedia%2F2018%2F05%2F22%2FUSATODAY%2FUSATODAY%2F636625868623447717-AP-APTOPIX-Heat-Bucks-Basketball-39255807.JPG%3Fwidth%3D1600%26height%3D800%26fit%3Dcrop&f=1&nofb=1&ipt=f056fb37d4abe7713927c7a06058aa552f829951ce738eeaf63bdec02267c59f&ipo=images");
+  }
+
+
+    /** MENU STYLING **/
+    /** abides by the body flexbox**/
+    .menu{
+        overflow: hidden;
+        margin: 0 auto;
+        background-color: var(--light);
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        align-self:center;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /** abides by the menu flexbox**/
+    .menu-item{
+        font-family: Inconsolata;
+        text-decoration: none;
+    } 
+
+    .menu-item:hover{
+        color:red;
+    }
+
+    /** MAIN STYLING **/
+    /** abides by the body flexbox**/
+    main{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+        /** TITLE STYLEING **/
+        /** abides by the main flexbox**/
+        .page-title{
+            font-family: Raleway;
+            color: var(--light);
+            align-self: center;
+            width: fit-content;
+            font-size: 60px;
+        }
+
+        
+        /** ABOUT ME SECTION **/
+        /** abides by the main flexbox**/
+        .interest{
+            background-color: purple;
+            padding: 20px;
+            display: flex;
+            flex-direction: row;
+        }
+        
+            /** COLLAGE **/
+            /** abides by the .about-me-section flexbox**/
+            .collage{
+                width: 50%;
+                background-color: var(--lightNeutral);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            /** abides by the collage flexbox**/
+            .collage > img{
+                width: 40%;
+                padding: 20px;
+            }
+        
+            /** CAPTION **/
+            /** abides by the .about-me-section flexbox**/
+            .caption-group{
+                width: 50%;
+                background-color: var(--light);
+                align-items: center;
+                justify-content: center;
+                display: flex;
+            }
+            
+            .about-me{
+                height: 50%;
+                background-color: var(--darkNeutral);
+                color: var(--dark);
+                font-family: Raleway;
+                margin: 30px;
+                display: flex;
+                align-self: center;
+                justify-content: center;
+                text-align: center;
+                padding: 20px;
+            }
+
+
+    /** FOOTER **/
+    /** abides by the body flexbox **/
+    .wrapper {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        margin: 0 auto -200px; /* the bottom margin is the negative value of the footer's height */
+    }
+
+    footer, .push{
+        background-color: var(--dark);
+        color: var(--light);
+        height: 200px; /*push must be the same height as the footer*/
+        display: flex;
+        justify-self: end;
+    }
+
+    /** ANIMATION STUFF **/
+
+    /* src = (https://alvarotrigo.com/blog/css-animations-scroll/) */
+    .reveal{
+        position: relative;
+        transform: translateY(150px);
+        opacity: 0;
+        transition: 2s all ease;
+      }
+      .reveal.active{
+        transform: translateY(0);
+        opacity: 1;
+      }
+
+       /** trying out grid
+    .grid-test-container{
+        background-color: blue;
+        display: inline-grid;
+        width: 30px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 10vw);
+    }
+
+    
+
+    .grid-test-container > div{
+        background-color: white;
+    }
+ **/
+    /*.one-one{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    .one-two{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    #item1{
+        
+        background-color: yellow;
+    }
+
+    #item2{
+        grid-column-start: 2;
+        background-color: red;
+    }
+
+    #item3{
+       
+        background-color: var(--dark);
+        color: var(--light);
+        width: fit-content;
+    }*/
+
+    /*.gridTestContainer > div >/ img{
+        width: 50%;
+        object-fit: cover;
+        overflow: hidden;
+    }*/
+    
+    @keyframes enlarge{
+        0%{
+            width: var(--startWidth);
+            height: var(--startHeight);
+            opacity: var(--startOpacity);
+          }
+          100%{
+            width: var(--endWidth);
+            height: var(--endHeight);
+            opacity: var(--endOpacity);
+          }
+      }
+
+      @keyframes rowEnlarge{
+        0%{
+            width: var(--rowStartWidth);
+            height: var(--rowStartHeight);
+            opacity: var(--startOpacity);
+          }
+          100%{
+            width: var(--rowEndWidth);
+            height: var(--rowEndHeight);
+            opacity: var(--endOpacity);
+          }
+      }
+
+    @keyframes returnToOrgSize{
+        0%{
+            width: var(--endWidth);
+            height: var(--endHeight);
+            opacity: var(--endOpacity);
+          }
+          100%{
+            width: var(--startWidth);
+            height: var(--startHeight);
+            opacity: var(--startOpacity);
+          }
+      }
+
+
+      @keyframes showPara{
+        0%{
+            height: 0%;
+            font-size: 0px;
+        }
+        100%{
+            height: 40%;
+            font-size: 20px;
+        }
+      }
+
+      @keyframes hidePara{
+        0%{
+            height: 40%;
+            font-size: 20px;
+        }
+        100%{
+            height: 0%;
+            font-size: 0px;
+        }
+      }

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Inconsolata&family=Poppins&family=Raleway:wght@700&family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap');
+
+/**
+IMPORTED FONTS:
+    POPPINS
+    INCONSOLATA
+    BUNGEE SPICE
+    RALEWAY
+    SOURCE SANS PRO
+**/
+
+:root{
+    --dark: #03045e;
+    --light: #90e0ef;
+    --neutral: #00B4D8;
+    --lightNeutral: #00b4d8;
+    --darkNeutral: #0077b6;
+    --blue-grey: #0D5B6D;
+    
+    --turquoise: #18DFCE;
+    --green-cyan: #019B65;
+    --dark-green: #016441;
+    
+  }
+
+  body{
+    width: 100%;
+    background-color: red;
+  }
+
+/** MENU STYLING **/
+    /** abides by the body flexbox**/
+    .menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow: hidden;
+        margin: 0 auto;
+        
+        color: var(--neutral);
+        background-color: var(--light);
+        width: 100%;
+        height: 3.5vw;
+        padding: 10px;
+        align-self:center;
+        display: flex;
+        justify-content: space-around;
+
+        z-index: 999;
+    }
+
+    /** abides by the menu flexbox**/
+    .menu-item{
+        font-family: Inconsolata;
+        text-decoration: none;
+        color: black;
+    } 
+
+    .menu-item:hover{
+        color:red;
+    }
+
+    .page-title{
+        font-family: Raleway;
+        color: var(--light);
+        align-self: center;
+        width: fit-content;
+        font-size: 60px;
+    }
+
+    /** FOOTER **/
+    /** abides by the body flexbox **/
+    .wrapper {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        margin: 0 auto -200px; /* the bottom margin is the negative value of the footer's height */
+    }
+
+    #footer{
+        background-color: black;
+        color: var(--light);
+        height: 200px; /*push must be the same height as the footer*/
+        display: flex;
+        justify-self: end;
+        justify-content: center;
+        font-family: Poppins;
+        width: 100%;
+    }
