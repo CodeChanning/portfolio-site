@@ -7,7 +7,7 @@ const HATTIE_B_SANDWICH = "assets/fall-sem-22/hattie-b.jpg";
 const ANGRY_BROS = "assets/fall-sem-22/angry-bros.jpg";
 const UNCLE_RYAN_FAM_WEEKEND_SELFIE = "assets/fall-sem-22/uncle-ryan-selfie.jpg";
 const ME_ROFL = "assets/fall-sem-22/me-rofl.jpg";
-const SPRITE_BY_ARCHITECTURE = "assets/fall-sem-22/drinking-sprite-after-class.jpg";
+const SPRITE_BY_ARCHITECTURE = "assets/fall-sem-22/drinking-sprite-after-class.JPG";
 const L_SECT = "assets/fall-sem-22/ldr-sect-speech-be-real.jpg";
 const CLOUD_POINT_5 = "assets/fall-sem-22/cloud-room-5.JPG";
 
