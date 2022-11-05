@@ -11,7 +11,7 @@ const SPRITE_BY_ARCHITECTURE = "assets/fall-sem-22/drinking-sprite-after-class.J
 const L_SECT = "assets/fall-sem-22/ldr-sect-speech-be-real.jpg";
 const CLOUD_POINT_5 = "assets/fall-sem-22/cloud-room-5.JPG";
 
-/* SENIOR YR PICS */ 
+/* HS PICS */ 
 const GRAD_CAP = "assets/hs-senior-year/grad-cap.JPG";
 const STEFAN_N_AHMAD_AT_GRADUATION = "assets/hs-senior-year/stefan-and-ahmad-graduation.png";
 const KALEB_SLEEPING_AT_FESTIVAL = "assets/hs-senior-year/kaleb-sleeping-at-festival.JPG";
@@ -20,8 +20,6 @@ const WESTERN_LUNCH = "assets/hs-senior-year/western-lunch.JPG";
 const WLR_CAT = "assets/hs-senior-year/wlr-cat.jpg";
 const I_HEART_KENDRICK_WITH_HAYDEN = "assets/hs-senior-year/i-heart-kendrick-with-hayden.jpg";
 const ARIANNA_BURGER_WITH_NO_MEAT = "assets/hs-senior-year/arianna-no-meat-burger.JPG";
-
-/* JUNIOR YR PICS */
 const ROBOTICS_WAVES = "assets/hs-junior-year/robotics-waves.jpg";
 const GEN_3_BOT_2021 = "assets/hs-junior-year/gen-3-ultimate-goal-bot.jpg";
 const KEYCHRON_KEYBOARD = "assets/hs-junior-year/keychron.JPG";
@@ -44,15 +42,9 @@ let firstSemImages = [
         ];
 
 let seniorImages = [
-            [[GRAD_CAP, "grad-cap"], [I_HEART_KENDRICK_WITH_HAYDEN, "i-heart-kendrick"]], 
-            [[KALEB_SLEEPING_AT_FESTIVAL, "kaleb-sleeping"], [WALKER_POINT_5, "walker-point-5"]], 
-            [[WESTERN_LUNCH, "western-lunch"], [STEFAN_N_AHMAD_AT_GRADUATION, "stefan-n-ahmad"], [WLR_CAT, "wlr-cat"]]
-        ];
-
-let juniorImages = [
-            [[ROBOTICS_WAVES, "robotics-waves"]], 
-            [[KEYCHRON_KEYBOARD, "keychron-keyboard"]], 
-            [[GEN_3_BOT_2021, "gen-3-bot"]]
+            [[GRAD_CAP, "grad-cap"], [I_HEART_KENDRICK_WITH_HAYDEN, "i-heart-kendrick"], [ROBOTICS_WAVES, "robotics-waves"]], 
+            [[KALEB_SLEEPING_AT_FESTIVAL, "kaleb-sleeping"], [WALKER_POINT_5, "walker-point-5"], [KEYCHRON_KEYBOARD, "keychron-keyboard"]], 
+            [[WESTERN_LUNCH, "western-lunch"], [STEFAN_N_AHMAD_AT_GRADUATION, "stefan-n-ahmad"], [WLR_CAT, "wlr-cat"], [GEN_3_BOT_2021, "gen-3-bot"]]
         ];
 
 /** FUNCTION DECLARATIONS **/
